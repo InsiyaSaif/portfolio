@@ -5,3 +5,63 @@
 
 .social .cv-link{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border:1px solid rgba(57,222,211,.3);border-radius:4px;color:#b9f2eb;font-size:9px;letter-spacing:.04em}.social .cv-link b{color:var(--teal);font-size:11px}
 
+
+/* Review draft: enlarge supporting text by 4px; headings remain unchanged. */
+body{font-size:19px}
+.nav,.text-link,.section-heading p{font-size:16px}
+.outline-button,.primary-button,.body-copy blockquote,.notice strong,.capabilities b,.education p,.experience>p,.certs strong{font-size:15px}
+.eyebrow,.kicker,.social small,.section-heading>small,.meta,.education article>small,.experience-top small,.cert-title,.contact-card>small{font-size:13px}
+.intro{font-size:18px}
+.social{font-size:14px}
+.social .cv-link{font-size:13px}
+.body-copy{font-size:16px}
+.art>small{font-size:11px}
+.project-content p{font-size:15px}
+.tags span,.tool-tags span{font-size:12px}
+.project-foot{font-size:12px}
+.notice p{font-size:13px}
+.notice>small{font-size:11px}
+.skills-grid>div>p{font-size:15px}
+.capabilities>div>i{font-size:12px}
+.capabilities small{font-size:12px}
+.education p,.experience>p{font-size:14px}
+.experience ul{font-size:13px}
+.experience .tags span{font-size:10px}
+.certs strong{font-size:13px}
+.certs small{font-size:12px}
+.contact-card>p{font-size:15px}
+.footer>span,.footer>a:last-child{font-size:11px}
+.window-bar{font-size:12px}
+.window-bar>b{font-size:11px}
+.dash-title small,.metric>small{font-size:12px}
+.period{font-size:11px}
+.metric .mono{font-size:19px}
+.metric label{font-size:11px}
+.pills i{font-size:10px}
+.chart-title{font-size:12px}
+.chart-title small,.y-axis,.x-axis{font-size:10px}
+.dash-footer{font-size:11px}
+.chip{font-size:13px}
+.figure{font-size:11px}
+.ticker>div{font-size:12px}
+.mini-bar b,.mini-content small,.sketch>span{font-size:10px}
+@media(max-width:680px){.chip{font-size:12px}.section-heading>small{font-size:11px}}
+.social small{font-size:12px}
+.contact-card>small,.figure{font-size:11px}
+.notice strong{font-size:14px}
+
+/* Phone layout: keep social links visible and make the skills strip stationary. */
+@media(max-width:680px){
+  .social{flex-wrap:wrap;max-width:100%;column-gap:10px;row-gap:8px}
+  .ticker>div{min-width:0;flex-wrap:wrap;justify-content:center;white-space:normal;animation:none;gap:10px 14px;padding:14px 7%}
+}
+
+
+/* Keep the duplicated skills list moving on every screen size. */
+.ticker>div{width:max-content;min-width:max-content;justify-content:flex-start;gap:30px;padding-left:5vw;animation:ticker 28s linear infinite;will-change:transform}
+@media(max-width:680px){
+  .ticker>div{gap:22px;padding:14px 7%;white-space:nowrap;flex-wrap:nowrap}
+  .social{display:flex;flex-wrap:wrap;align-items:center;max-width:100%;gap:8px 10px;line-height:1.6}
+  .social .cv-link{flex:0 0 auto;visibility:visible;opacity:1}
+}
+
