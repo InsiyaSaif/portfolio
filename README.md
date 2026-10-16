@@ -18,11 +18,12 @@ Open `index.html` in a browser.
 
 - Confirm Insiya approves publishing the resume details and LinkedIn profile.
 - Add a preferred public email only if she wants it shown.
-- Confirm Insiya approves publishing the CV PDF in `assets/insiya-saif-cv.pdf` before making the repository public.
+- Confirm Insiya approves publishing the CV PDF in `insiya-saif-cv.pdf` before making the repository public.
 - Add real analytics project case studies, dashboard links, and repositories after she completes them.
 - Add certificates and a resume download only after confirming which files should be public.
 
 This draft does not include the resume PDF or personal phone/email address. The analytics chart illustration in the header is decorative, not a claim about measured project data.
+
 
 
 
